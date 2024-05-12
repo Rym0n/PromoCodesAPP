@@ -1,4 +1,4 @@
-package com.example.promocodev2;
+package com.example.promocodev2.product;
 
 
 import com.fasterxml.jackson.core.io.schubfach.FloatToDecimal;
@@ -18,6 +18,15 @@ public class Product {
     private String name;
     private BigDecimal regular_price;
     private String currency;
+    private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public Integer getProductID() {
         return productID;
