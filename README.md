@@ -2,9 +2,9 @@
 Application to manage discount codes for sales or promotions (a.k.a promo codes).
 
 # Application guidelines
-Run app on  http://localhost:8080
-H2 console available at '/h2-console'. login: sa without password. Url included at running app console.
-Code is in master branch.
+# Run app on  http://localhost:8080
+# H2 console available at '/h2-console'. login: sa without password. Url included at running app console.
+# Code is in master branch.
 
 # REST API endpoints
 
